@@ -1,0 +1,50 @@
+{
+  "name": "scrudder-clock",
+  "version": "1.0.0",
+  "description": "Location clock inspired by the Weasley Clock in Harry Potter",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server-dev": "nodemon server/index.js",
+    "react-dev": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theofficetroll/scrudder-clock.git"
+  },
+  "author": "Mark Scrudder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theofficetroll/scrudder-clock/issues"
+  },
+  "homepage": "https://github.com/theofficetroll/scrudder-clock#readme",
+  "dependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "antd": "^4.14.0",
+    "babel-loader": "^8.2.2",
+    "mqtt": "^4.2.6",
+    "nodemon": "^2.0.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
